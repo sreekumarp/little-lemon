@@ -1,0 +1,20 @@
+.features-container {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.features-item {
+  background-color: var(--container-color);
+  padding: 1.25rem;
+  padding-top: 0.7rem;
+  position: relative;
+}
+
+.features-img {
+  width: 45px;
+  filter: brightness(0) invert(1);
+}
+
+.features-title {
+  font-size: var(--larger-font-size);
+  margin-block: 0.75rem;
+}
