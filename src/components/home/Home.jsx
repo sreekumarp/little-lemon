@@ -36,7 +36,7 @@ const Home = () => {
               key={index}
             >
               <div className='home-data container'>
-                <h3 className='home-subtitle' style={{ fontSize: '135px' }}>Welcome To Little Lemon!</h3>
+                <h3 className='home-subtitle' style={{ fontSize: '135px' }}>Welcome To Little Lemon!!</h3>
                 <h1 className='home-title'>{parse(title)}</h1>
 
                 <p className='home-description'>{description}</p>
